@@ -22,7 +22,7 @@
         <% if @total_expenses.present? %>
           <div class="flex justify-between space-x-4">
             <!-- Total Expenses -->
-            <div class="bg-indigo-600 text-white rounded-lg shadow-lg p-6 w-full sm:w-1/3">
+            <div class="bg-black text-white rounded-lg shadow-lg p-6 w-full sm:w-1/3">
               <h2 class="text-xl font-semibold">Total Expenses</h2>
               <p class="text-3xl font-bold">$ <%= @total_expenses %></p> <!-- Example Total -->
               <a href="/expenses" class="text-indigo-200 hover:text-white mt-2 block">View all Expenses</a>
@@ -50,7 +50,7 @@
         <div class="bg-white shadow-lg rounded-lg p-8 mb-6">
           <div class="flex justify-between space-x-4">
             <!-- Total Tickets -->
-            <div class="bg-indigo-600 text-white rounded-lg shadow-lg p-6 w-full sm:w-1/3">
+            <div class="bg-black text-white rounded-lg shadow-lg p-6 w-full sm:w-1/3">
               <h2 class="text-xl font-semibold">Total Tickets</h2>
               <p class="text-3xl font-bold"><%= @ticket_counts.values.sum %></p> <!-- Total number of tickets -->
               <a href="/tickets" class="text-indigo-200 hover:text-white mt-2 block">View all Tickets</a>
